@@ -1,0 +1,19 @@
+
+ #body
+ {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:rgb(231, 241, 245);
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-template-rows: repeat(3);
+}
+ 
